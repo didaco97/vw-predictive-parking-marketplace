@@ -8,7 +8,13 @@ export const metadata: Metadata = {
   title: "ParkPredict - AI-Powered Predictive Parking Marketplace by Volkswagen",
   description: "Experience the future of parking with AI-powered predictions, seamless IQ.DRIVE integration, and smart parking solutions. Find and reserve parking before you arrive.",
   icons: {
-    icon: "/Orchid_logo.png",
+    icon: [
+      { url: "/Orchid_logo.png", type: "image/png", sizes: "32x32" },
+      { url: "/Orchid_logo.png", type: "image/png", sizes: "16x16" },
+      { url: "/Orchid_logo.png", type: "image/png", sizes: "any" }
+    ],
+    apple: { url: "/Orchid_logo.png" },
+    shortcut: "/Orchid_logo.png",
   },
 };
 
