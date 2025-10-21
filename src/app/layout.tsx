@@ -7,6 +7,9 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "ParkPredict - AI-Powered Predictive Parking Marketplace by Volkswagen",
   description: "Experience the future of parking with AI-powered predictions, seamless IQ.DRIVE integration, and smart parking solutions. Find and reserve parking before you arrive.",
+  icons: {
+    icon: "/Orchid_logo.png",
+  },
 };
 
 export default function RootLayout({

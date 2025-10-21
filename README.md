@@ -1,9 +1,13 @@
 <div align="center">
 
+<img src="public/Orchid_logo.png" alt="Orchid Logo" width="120" />
+
+<h3>Team: Orchid</h3>
+<p><strong>Members:</strong> Dhiraj Dahale • Parag Patil • Isha Singh</p>
+
 # 🚗 ParkPredict: Predictive Parking Marketplace
 
 ### AI-Powered Parking Solution Integrated with Volkswagen IQ.DRIVE
-
 [![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
