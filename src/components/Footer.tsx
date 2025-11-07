@@ -150,7 +150,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-white/10">
+        <div className="pt-8 border-t border-white/10 !bg-transparent">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/60 text-sm text-center md:text-left">
               © 2024 ParkPredict by Volkswagen. All rights reserved.
