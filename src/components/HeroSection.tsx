@@ -49,7 +49,7 @@ export default function HeroSection() {
             x: [0, 20, 0],
           }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute top-20 left-10 w-64 h-64 bg-[#00B1EB]/20 rounded-full blur-3xl"
+          className="absolute top-20 left-10 w-64 h-64 bg-transparent border-2 border-[#00B1EB]/40 rounded-full backdrop-blur-sm"
         />
         <motion.div
           animate={{
@@ -57,7 +57,7 @@ export default function HeroSection() {
             x: [0, -20, 0],
           }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute bottom-20 right-10 w-96 h-96 bg-[#001E50]/20 rounded-full blur-3xl"
+          className="absolute bottom-20 right-10 w-96 h-96 bg-transparent border-2 border-white/30 rounded-full backdrop-blur-sm"
         />
       </div>
 
