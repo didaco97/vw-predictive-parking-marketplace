@@ -157,7 +157,7 @@ export default function IQDriveIntegration() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
-            className="glass-light rounded-2xl p-6 text-center hover-lift">
+            className="glass-light rounded-2xl p-6 text-center hover-lift !bg-transparent">
 
               <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-[#00B1EB] to-[#001E50] flex items-center justify-center shadow-premium">
                 <feature.icon className="w-7 h-7 text-white" />
@@ -173,7 +173,7 @@ export default function IQDriveIntegration() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="glass-light rounded-3xl p-8 md:p-12 !opacity-100 !bg-transparent">
+          className="glass-light p-8 md:p-12 !opacity-100 !bg-transparent !border !rounded-[139px] !border-white">
 
           <h3 className="text-3xl font-bold text-white text-center mb-12">
             How It Works
