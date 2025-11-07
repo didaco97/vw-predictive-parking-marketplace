@@ -145,7 +145,7 @@ export default function HeroSection() {
                 initial={{ opacity: 10, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.8 + index * 0.1 }}
-                className="glass-light rounded-xl p-6 hover:scale-105 transition-transform"
+                className="bg-transparent border-2 border-white/40 rounded-xl p-6 hover:scale-105 hover:border-[#00B1EB] transition-all backdrop-blur-sm"
               >
                 <stat.icon className="w-8 h-8 text-[#00B1EB] mx-auto mb-3" />
                 <div className="text-3xl font-bold text-white mb-1">{stat.value}</div>
@@ -172,7 +172,7 @@ export default function HeroSection() {
                   rotateY: 5,
                   transition: { duration: 0.3 }
                 }}
-                className="glass-light rounded-2xl p-8 text-left hover-lift transform-3d-child"
+                className="bg-transparent border-2 border-white/40 rounded-2xl p-8 text-left hover:border-[#00B1EB] transition-all backdrop-blur-sm transform-3d-child"
               >
                 <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-4 shadow-premium`}>
                   <feature.icon className="w-7 h-7 text-white" />
