@@ -142,7 +142,7 @@ export default function HeroSection() {
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}
-                initial={{ opacity: 0, scale: 0.8 }}
+                initial={{ opacity: 10, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.8 + index * 0.1 }}
                 className="glass-light rounded-xl p-6 hover:scale-105 transition-transform"
